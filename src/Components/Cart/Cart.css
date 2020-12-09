@@ -1,0 +1,15 @@
+#order{
+    text-align: center;
+}
+#grand{
+    color: red;
+    font-weight: 700;
+    text-align: center;
+}
+.high{
+    font-weight: 700;
+}
+#reviewBtn{
+    position: relative;
+    margin-left: 115px;
+}

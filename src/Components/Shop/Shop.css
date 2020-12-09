@@ -1,0 +1,18 @@
+.shop-container{
+    display: flex;
+    margin-top: 20px;
+}
+.product-container{
+    width: 70%;
+    margin-left: 20px;
+    margin-right: 5px;
+    border-right: 1px solid lightgray;
+    padding-right: 20px;
+}
+.cart-container{
+    background-color: rgba(221, 215, 215, .50);
+    border-radius: 10px;
+    width: 30%;
+    padding: 20px;
+    height: 280px;
+}
