@@ -14,7 +14,9 @@ const Shop = () => {
   const [search, setSearch] = useState('')
 
   useEffect(() => {
-    fetch('https://nameless-lowlands-58863.herokuapp.com/' + search)
+    fetch(
+      'https://nameless-lowlands-58863.herokuapp.com/products?search=' + search
+    )
       .then((res) => res.json())
       .then((data) => setProducts(data))
   }, [search])
