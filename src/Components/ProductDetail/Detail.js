@@ -18,7 +18,7 @@ const Detail = () => {
     return (
       <div>
         {loading ? (
-          <CircularProgress color="secondary" />
+          <CircularProgress color="secondary" style = {{alignItem : 'center', justifyContent : 'center'}} />
         ) : (
           <Product showAddToCart={false} product={product}></Product>
         )}
